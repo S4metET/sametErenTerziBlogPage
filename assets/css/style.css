@@ -157,6 +157,12 @@
     transition: all 0.4s;
     z-index: -1;
   }
+  .content-img{
+    padding-left: 50px;
+    img{
+        width: 90%;
+    }
+  }
   @media(max-width: 768px){
     .sidebar{
       width: 100%;
