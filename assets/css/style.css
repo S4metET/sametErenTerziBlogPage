@@ -100,9 +100,10 @@
   }
   .sidebar{
     position: fixed;
-    top: 0; 
+    top: 0;
     right: 0;
     height: 100%;
+    width: 300px;
     background-color: rgba(255, 255, 255, 0.15);
     backdrop-filter: blur(12px);
     box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
@@ -111,7 +112,10 @@
     flex-direction: column;
     text-align: center;
     justify-content: flex-start;
-    transition: 0.3s;
+    overflow-y: hidden;
+    opacity: 0;
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    transform: translateX(100%);
   }
   .sidebar li{
     position: relative;
