@@ -58,16 +58,17 @@
     width: 100%;
   }
   .header{
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 60px;
-  }
-  .title{
-    h1{
-        color: var(--text-color);
-        font-size: 24px;
-        padding-top: 60px;
-        padding-left: 50px;
+    padding-bottom: 60px;
+    .title{
+      h1{
+          color: var(--text-color);
+          font-size: 20px;
+          padding-top: 60px;
+          padding-left: 24px;
+      }
     }
   }
   nav{
@@ -127,18 +128,20 @@
     margin-bottom: 25px;
   }
   .content{
-    padding-left: 25px;
     padding-bottom: 80px;
     h2{
         color: var(--text-color);
         margin-bottom: 10px;
         margin-left: 24px;
+        font-size: 24px;
     }
     p{
         width: 366px;
         color: var(--text-color);
         margin-bottom: 25px;
         margin-left: 24px;
+        font-size: 16px;
+        line-height: 28px;
     }
   }
    button {
@@ -171,8 +174,18 @@
   }
   .project-container{
     text-align: center;
+    margin-bottom: 104px;
     h2{
         color: var(--text-color);
+    }
+  }
+  .contact-me-container{
+    text-align: center;
+    color: var(--text-color);
+    p{
+      margin-bottom: 32px;
+      line-height: 28px;
+      font-size: 18px;
     }
   }
   .footer{
